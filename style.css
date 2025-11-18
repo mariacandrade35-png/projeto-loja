@@ -1,61 +1,136 @@
 *{
-    background-color: #1a1a1a;
-    padding: 0;
-    margin: 0;
-}
-
-.banner{
-   height: 450px; 
-   width: 750px; 
-   background-image:url("./assents/banner.png") ; /*Ele adiciona umaimagem como fundo*/
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-ul{
-    display: flex;/*Ativa a propriedade de alinhamento */
-    flex-direction:row; /*Coloca os elementos na horizontal*/
-}
+    
+  padding: 0%;
+  margin: 0%;
+  }
   
-li a{
-  text-decoration: none;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 20px;
+  
+  body{
+  background-color: #1a1a1a;
+  }
+  
+  .banner{
+  height: 450px;
+  width: 850px;
+  background-image: url("./assents/Banner.png"); /*ele adiciona uma imagem como fundo*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  }
 
-}
-li{
-    list-style: none;/*Remove os pontos das listas*/
-}
-nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-#logo{
+  #logo{
       height: 100px;
       width: 100px;
+       }
+  
+  li a{
+  
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 25px;
+   }
+  
+  ul{
+      display: flex; /*tiva a propriedade de alinhamento*/
+      flex-direction: row; /*coloca os elementos na horizontal*/
+  }
+  
+  li{
+  list-style: none; /*remove os pontos das lista*/
+  }
+  
+  nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  
+   .bi{
+  font-size: 40px;
+  color: #4c544c;
+  
+   }
+  
+   .texto-banner{
+     color: #ffffff;
+     font-size: 25px;
+     margin: 20px;
+     
+   }
+  
+   .btn{
+      height: 45px;
+      width: 115px;
+      border-radius: 55px; /*Deixa a  borda redonda*/
+      border: none; /*Serve para remover a borda*/
+      color: #ffffff;
+      font-size: 19px;
+      background-color: #333333;
+      margin: 20px
+   }
+   
+   .banner-estrutura{
+      width: 220px;
+   }
+
+   .section-banner{
+    display: flex;
+    justify-content: center;
+   }
+
+  .titulo{
+ color: #ffffff ;
+ font-weight:bold ;
+ font-size: 35px;
+ }
+.estrutura-titulo{
+  justify-content: center;
+  display: flex;
+}
+ 
+.produto{
+  height: 380px;
+  width: 200px; 
 }
 
-.bi{
-    font-size: 35px;
-    color: #4c544c;
-    
-}
-.texto .banner{
-  color: #ffffff;
-  font-size:25px ;
-}
-
-button{
-  width: 338px;
-  height: 156px;
-  border-radius: 55px;
-  border: none; /*serve para remover o botão*/
+.valor{
   color: #ffffff;
   font-weight: bold;
-  font-size: 19px;
-  background-color: #333333;
-  
+  font-size: 30px;
+}
+
+.card-texto{
+  display: flex;
+  justify-content: center;
+
+}
+
+.card{
+  width: 250px; 
+  height: 430px;
+}
+
+.valor{
+  height: 15px;
+  width: 15px;
+}
+
+.vermelho{
+  background-color: red;
+}
+.azul{
+  background-color: blue;
+}
+.amarelo{
+  background-color: goldenrod;
+}
+.verde{
+  background-color: darkgreen;
+}
+.laranja{
+  background-color: orangered;
 }
