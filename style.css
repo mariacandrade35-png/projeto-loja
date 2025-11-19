@@ -1,3 +1,4 @@
+
 *{
     
   padding: 0%;
@@ -6,7 +7,7 @@
   
   
   body{
-  background-color: #1a1a1a;
+      background-color: #1a1a1a;
   }
   
   .banner{
@@ -17,12 +18,9 @@
   background-size: cover;
   display: flex;
   align-items: center;
+  
+  
   }
-
-  #logo{
-      height: 100px;
-      width: 100px;
-       }
   
   li a{
   
@@ -33,7 +31,7 @@
    }
   
   ul{
-      display: flex; /*tiva a propriedade de alinhamento*/
+      display: flex; /*ativa a propriedade de alinhamento*/
       flex-direction: row; /*coloca os elementos na horizontal*/
   }
   
@@ -48,6 +46,10 @@
   justify-content: space-between;
   }
   
+   #logo{
+  height: 120px;
+  width: 120px;
+   }
   
    .bi{
   font-size: 40px;
@@ -56,81 +58,102 @@
    }
   
    .texto-banner{
-     color: #ffffff;
+      color: #ffffff;
      font-size: 25px;
-     margin: 20px;
      
    }
   
    .btn{
       height: 45px;
       width: 115px;
-      border-radius: 55px; /*Deixa a  borda redonda*/
+      border-radius: 55px;/*Deixa a  borda redonda*/
       border: none; /*Serve para remover a borda*/
       color: #ffffff;
       font-size: 19px;
       background-color: #333333;
-      margin: 20px
+      margin: 30px;/*distancia o botao do texto*/
    }
    
    .banner-estrutura{
       width: 220px;
+      margin: 30px;
    }
+   
+   .section-banner {
+      display: flex;
+      justify-content: center;  /* Centraliza horizontalmente */
+      padding: 40px 0;   /* Mantém espaço ao redor */
+      }
+  
+      .titulo {
+     color: #ffffff;
+     font-size: 35px;
+     font-weight: bold;
+     }
+  
+      .estrutura-titulo{
+     justify-content: center;
+     display: flex;
+     padding: 30px;
+    }
+    
+    .produtos{
+     height: 380px;
+     width: 250px;
+    }
+    .valor{
+     color: #ffffff;
+     font-weight: bold;
+     font-size: 30px;
+    }
+  
+    .card{
+     width: 250px;
+     height: 430px;
+    }
 
-   .section-banner{
-    display: flex;
-    justify-content: center;
+  
+    .card-texto{
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+  
+    .cores{
+     height: 20px;
+     width: 15px;
+     border-radius: 50%;
+
+   
+    }
+    .vermelho{
+     background-color: brown;
+    }
+    .azul{
+     background-color: blue;
+    }
+    .amarelo{
+     background-color: chartreuse;
+    }
+    .branco{
+      background-color: #ffffff;
+    }
+
+    .caixa-cores{
+    flex-direction: row;
+   display: flex;
+   padding: 5px;
+
    }
-
-  .titulo{
- color: #ffffff ;
- font-weight:bold ;
- font-size: 35px;
- }
-.estrutura-titulo{
-  justify-content: center;
-  display: flex;
-}
- 
-.produto{
-  height: 380px;
-  width: 200px; 
-}
-
-.valor{
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.card-texto{
-  display: flex;
-  justify-content: center;
-
-}
-
-.card{
-  width: 250px; 
-  height: 430px;
-}
-
-.valor{
-  height: 15px;
-  width: 15px;
-}
-
-.vermelho{
-  background-color: red;
-}
-.azul{
-  background-color: blue;
-}
-.amarelo{
-  background-color: goldenrod;
-}
-.verde{
-  background-color: darkgreen;
-}
-.laranja{
-  background-color: orangered;
-}
+   
+   .carousel{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 20px; /*distancia iguais entre os elementos*/
+   }
+   .x-box{
+    flex-direction: row;
+   }
