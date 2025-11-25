@@ -1,159 +1,262 @@
-
 *{
     
-  padding: 0%;
-  margin: 0%;
-  }
-  
-  
-  body{
-      background-color: #1a1a1a;
-  }
-  
-  .banner{
-  height: 450px;
-  width: 850px;
-  background-image: url("./assents/Banner.png"); /*ele adiciona uma imagem como fundo*/
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  
-  
-  }
-  
-  li a{
-  
-      text-decoration: none;
-      color: #ffffff;
-      font-size: 20px;
-      padding: 25px;
+   padding: 0%;
+   margin: 0%;
    }
-  
-  ul{
-      display: flex; /*ativa a propriedade de alinhamento*/
-      flex-direction: row; /*coloca os elementos na horizontal*/
-  }
-  
-  li{
-  list-style: none; /*remove os pontos das lista*/
-  }
-  
-  nav{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  }
-  
+   
+   
+   body{
+   background-color: #1a1a1a;
+   }
+   
+   .banner{
+   height: 450px;
+   width: 850px;
+   background-image: url("./assents/Banner.png"); /ele adiciona uma imagem como fundo/
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   }
+
    #logo{
-  height: 120px;
-  width: 120px;
-   }
-  
-   .bi{
-  font-size: 40px;
-  color: #4c544c;
-  
-   }
-  
-   .texto-banner{
-      color: #ffffff;
-     font-size: 25px;
-     
-   }
-  
-   .btn{
-      height: 45px;
-      width: 115px;
-      border-radius: 55px;/*Deixa a  borda redonda*/
-      border: none; /*Serve para remover a borda*/
-      color: #ffffff;
-      font-size: 19px;
-      background-color: #333333;
-      margin: 30px;/*distancia o botao do texto*/
+       height: 100px;
+       width: 100px;
+        }
+   
+   li a{
+   
+       text-decoration: none;
+       color: #ffffff;
+       font-size: 20px;
+       padding: 25px;
+    }
+   
+   ul{
+       display: flex; /tiva a propriedade de alinhamento/
+       flex-direction: row; /coloca os elementos na horizontal/
    }
    
-   .banner-estrutura{
-      width: 220px;
-      margin: 30px;
+   li{
+   list-style: none; /remove os pontos das lista/
    }
    
-   .section-banner {
-      display: flex;
-      justify-content: center;  /* Centraliza horizontalmente */
-      padding: 40px 0;   /* Mantém espaço ao redor */
-      }
-  
-      .titulo {
-     color: #ffffff;
-     font-size: 35px;
-     font-weight: bold;
-     }
-  
-      .estrutura-titulo{
-     justify-content: center;
-     display: flex;
-     padding: 30px;
+   nav{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   }
+   
+   
+    .bi{
+   font-size: 40px;
+   color: #4c544c;
+   
+    }
+   
+    .texto-banner{
+      color: #ffffff;
+      font-size: 25px;
+      margin: 20px;
+      
+    }
+   
+    .btn{
+       height: 45px;
+       width: 115px;
+       border-radius: 55px; /Deixa a  borda redonda/
+       border: none; /Serve para remover a borda/
+       color: #ffffff;
+       font-size: 19px;
+       background-color: #333333;
+       margin: 20px
     }
     
-    .produtos{
-     height: 380px;
-     width: 250px;
+    .banner-estrutura{
+       width: 220px;
     }
-    .valor{
+
+    .section-banner{
+     display: flex;
+     justify-content: center;
+    }
+
+   .titulo{
+  color: #ffffff ;
+  font-weight:bold ;
+  font-size: 35px;
+  }
+
+  .estrutura-titulo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .produtos{
+     height: 350px;
+     width: 250px;
+  }
+
+  .valor{
      color: #ffffff;
      font-weight: bold;
      font-size: 30px;
-    }
-  
-    .card{
-     width: 250px;
-     height: 430px;
-    }
+  }
+  .card-texto{
+   display:flex ;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+  }
 
-  
-    .card-texto{
-     justify-content: center;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-    }
-  
-    .cores{
+  .card{
+     width: 250px;
+     height: 450px;
+  }
+  .cores{
      height: 20px;
      width: 15px;
-     border-radius: 50%;
+     border-radius: 50px;
+     border: none;
+  }
 
-   
-    }
-    .vermelho{
-     background-color: brown;
-    }
-    .azul{
-     background-color: blue;
-    }
-    .amarelo{
-     background-color: chartreuse;
-    }
-    .branco{
-      background-color: #ffffff;
-    }
+  .verde{
+     background-color: darkgreen;}
 
-    .caixa-cores{
-    flex-direction: row;
+  .azul{
+     background-color: blue;}
+
+  .roxo{ 
+  background-color: darkorchid; }
+
+.caixa-cores{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+
+.produtos{
+  height: 350px;
+  width: 250px;
+}
+
+.valor{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-texto{
+display:flex ;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.card{
+  width: 250px;
+  height: 450px;
+}
+.cores{
+  height: 20px;
+  width: 15px;
+  border-radius: 50px;
+  border: none;
+}
+
+.amarelo{
+  background-color: darkgoldenrod;}
+
+.rosa{
+  background-color: crimson;}
+
+.branco{ 
+background-color: #ffffff; }
+
+.caixa-cores{
+display: flex;
+flex-direction: row;
+padding: 5px;
+}
+
+
+.produtos{
+  height: 350px;
+  width: 250px;
+}
+
+.valor{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-texto{
+display:flex ;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.card{
+  width: 250px;
+  height: 450px;
+}
+.cores{
+  height: 20px;
+  width: 15px;
+  border-radius: 50px;
+  border: none;
+}
+
+.azul-marinho{
+  background-color: aqua;}
+
+.verde-escuro{
+  background-color: darkolivegreen;}
+
+.cinza{ 
+background-color: dimgray; }
+
+.caixa-cores{
+display: flex;
+flex-direction: row;
+padding: 5px;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px; /ele dar uma distância igual entre os elementos/
+}
+
+.banner-xbox{
+background-image: url("./assents/x-box.png");
+height: 450px;
+width: 850px;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.texto-xbox{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.banner-xbox{
+  display: flex;
+  justify-content: end;
+}
+.xbox-caixa{
    display: flex;
-   padding: 5px;
-
-   }
-   
-   .carousel{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-      gap: 20px; /*distancia iguais entre os elementos*/
-   }
-   .x-box{
-    flex-direction: row;
-   }
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 120px;
+   margin: 20px;
+}
